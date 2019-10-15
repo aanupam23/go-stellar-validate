@@ -1,4 +1,4 @@
-package xlm
+package isvalid
 
 import (
 	"fmt"
