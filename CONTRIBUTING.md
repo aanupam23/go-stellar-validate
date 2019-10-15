@@ -1,10 +1,10 @@
-Contributing to go-stellar-ipfs
+Contributing to go-stellar-validate
 =======
 
 
 ## Contribution guidelines
 
-Any contribution to go-stellar-ipfs is really appreciable and valued. The below flow helps in merging your contributions as soon as possible.
+Any contribution to go-stellar-validate is really appreciable and valued. The below flow helps in merging your contributions as soon as possible.
 
 ## Creating Pull Requests (PRs)
 
@@ -20,6 +20,6 @@ See [Fork-a-Repo](https://help.github.com/articles/fork-a-repo/) to know how thi
 
 ## Creating Issues
 
-You can report issues related to go-stellar-ipfs [here](https://github.com/aanupam23/go-stellar-ipfs/issues).
+You can report issues related to go-stellar-ipfs [here](https://github.com/aanupam23/go-stellar-validate/issues).
 
 Thanks for your contribution :)
