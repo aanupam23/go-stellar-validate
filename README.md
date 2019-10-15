@@ -15,7 +15,9 @@ go get -u github.com/aanupam23/go-stellar-validate
 
 # Getting Started
 
-go-stellar-validate is a small package that helps you validate stellar hashes such as Public Key, Private Key, Transactions id before using them in your application.
+go-stellar-validate is a small package that helps you validate stellar hashes such as Public Key, Private Key, Valid Asset Length, Transactions id before using them in your application.
+
+:question: WIP - This Library is work in progress.
 
 
 # Contribute
