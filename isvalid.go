@@ -32,7 +32,7 @@ func IsValidSecKey(seckey string) bool {
 	//Checking if stellar secret key is valid or not
 	initialchar := string(seckey[0])
 	_, err := keypair.Parse(seckey)
-	if err != nil || initialchar == "S" {
+	if err != nil || initialchar != "S" {
 		fmt.Println("Invalid Secret Key, please check and try again!")
 		return false
 	}
