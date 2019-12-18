@@ -7,8 +7,10 @@ import (
 	"github.com/stellar/go/keypair"
 )
 
-// IsValidPubKey checks if it is a valid public key
-func IsValidPubKey(pubkey string, nnetwork string) bool {
+// PubKey checks if it is a valid public key
+// Use nnetwork as "Public" for horizonclient.DefaultPublicNetClient
+// Use nnetwork as "Testnet" for horizonclient.DefaultTestNetClient
+func PubKey(pubkey string, nnetwork string) bool {
 
 	//Checking if stellar address is valid or not
 	nclient := horizonclient.DefaultTestNetClient
@@ -26,8 +28,8 @@ func IsValidPubKey(pubkey string, nnetwork string) bool {
 	return true
 }
 
-// IsValidSecKey checks if it is a valid secret key
-func IsValidSecKey(seckey string) bool {
+// SecKey checks if it is a valid secret key
+func SecKey(seckey string) bool {
 
 	//Checking if stellar secret key is valid or not
 	initialchar := string(seckey[0])
@@ -40,8 +42,8 @@ func IsValidSecKey(seckey string) bool {
 	return true
 }
 
-// IsValidTLen checks if it is a valid secret length
-func IsValidTLen(assetcode string) bool {
+// TLen checks if it is a valid secret length
+func TLen(assetcode string) bool {
 
 	//maximum length is 12 alphanumeric characters
 	assetLength := len(assetcode)
